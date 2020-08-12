@@ -1,0 +1,65 @@
+Your environment has been set up for using Node.js 12.18.3 (x64) and npm.
+
+C:\Users\luis.olivetti>mkdir c:\CRUD
+
+C:\Users\luis.olivetti>cd c:\CRUD
+
+c:\CRUD>mkdir backend
+
+c:\CRUD>cd backend
+
+c:\CRUD\backend>npm init -y
+Wrote to c:\CRUD\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+c:\CRUD\backend>npm i json-server
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN backend@1.0.0 No description
+npm WARN backend@1.0.0 No repository field.
+
++ json-server@0.16.1
+added 229 packages from 124 contributors and audited 229 packages in 18.667s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+c:\CRUD\backend>npm start
+
+> backend@1.0.0 start c:\CRUD\backend
+> json-server --watch db.json --3001
+
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/products
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+GET /products 200 14.363 ms - 254
